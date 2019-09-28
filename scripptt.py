@@ -31,7 +31,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
 
-    server.login('beinghamza@gmail.com','rfgorvhitcjhiwrj')
+    server.login('beinghamza@gmail.com','rjhiwrj')
 
     subject='Hey!price fell down!'
     body='check the amzon link :https://www.amazon.in/Scotch-Brite-Bathroom-scrubber-brush-Green/dp/B00NBM24PS/ref=sr_1_13?keywords=brush&qid=1569183573&sr=8-13'
