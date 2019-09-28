@@ -33,7 +33,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
     #use 2-way authentication and genrete a password 
-    server.login('beinghamza@gmail.com','pa2dsasr432fsa33f32word123fsa324')
+    server.login('qwerty@gmail.com','pa2dsasr432fsa33f32word123fsa324')
 
     subject='Hey!price fell down!'
     body='check the amzon link :https://www.amazon.in/Scotch-Brite-Bathroom-scrubber-brush-Green/dp/B00NBM24PS/ref=sr_1_13?keywords=brush&qid=1569183573&sr=8-13'
@@ -41,8 +41,8 @@ def send_mail():
 
 
     server.sendmail(
-        'beinghamza@gmail.com',
-        'hamza.9595@gmail.com',
+        'qwerty@gmail.com',
+        'zltan.9595@gmail.com',
         msg
     )
     print('hey! email has been sent')
